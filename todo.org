@@ -1,0 +1,3 @@
+* remove install/install.php after install
+
+* please change the password for the default users

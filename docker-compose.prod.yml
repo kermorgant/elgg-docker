@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  elgg:
+    expose:
+      - "80"
+    env_file:
+      - /etc/docker/elgg.env
+    environment:
+      - VIRTUAL_HOST=elgg.kgtech.fi

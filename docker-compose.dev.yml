@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  elgg:
+    # ports:
+    #   - "8080:80"
+    expose:
+      - "80"
+    env_file:
+      - ./elgg.priv.env
+    environment:
+      - VIRTUAL_HOST=elgg.local
